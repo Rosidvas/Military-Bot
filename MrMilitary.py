@@ -14,7 +14,7 @@ intents.message_content = True
 client = discord.Client(intents=intents)
 tree = app_commands.CommandTree(client)
 
-guild_ids = [1030746627113230367, ]
+guild_ids = [] #Server ids here
 
 def sendError(parameter):
      
